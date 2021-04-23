@@ -58,14 +58,6 @@ const App = () => {
     const x = languages[i].id;
   }
 
-  const encodedToken = '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';
-  const apiOptions = {
-    cache: 'force-cache',
-    headers: {
-      Authorization: `token ${encodedToken}`,
-    },
-  };
-
   const [name, setName] = useState('');
   const [repos, setRepos] = useState('');
   const [location, setLocation] = useState('');
@@ -73,7 +65,7 @@ const App = () => {
   const [url, setUrl] = useState('');
 
   useEffect(() => {
-    fetch('https://api.github.com/users/matildabjorken', apiOptions)
+    fetch('https://api.github.com/users/matildabjorken')
       .then((res) => res.json())
       .then((data) => {
         setData(data);

@@ -18,18 +18,10 @@ class LanguageData {
   }
 }
 
-const encodedToken = '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';
-const apiOptions = {
-  cache: 'force-cache',
-  headers: {
-    Authorization: `token ${encodedToken}`,
-  },
-};
 
 const fetchRepos = async () => {
   const repoResp = await fetch(
-    'https://api.github.com/users/matildabjorken/repos',
-    apiOptions
+    'https://api.github.com/users/matildabjorken/repos'
   ).then((res) => res.json());
   return repoResp;
 };

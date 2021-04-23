@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/business-card/static/css/main.047e5b56.chunk.css",
+    "main.js": "/business-card/static/js/main.a6a5848c.chunk.js",
+    "main.js.map": "/business-card/static/js/main.a6a5848c.chunk.js.map",
+    "runtime-main.js": "/business-card/static/js/runtime-main.b87d5823.js",
+    "runtime-main.js.map": "/business-card/static/js/runtime-main.b87d5823.js.map",
+    "static/js/2.286eee90.chunk.js": "/business-card/static/js/2.286eee90.chunk.js",
+    "static/js/2.286eee90.chunk.js.map": "/business-card/static/js/2.286eee90.chunk.js.map",
+    "index.html": "/business-card/index.html",
+    "precache-manifest.8014f5787c81269cdff592013cf56355.js": "/business-card/precache-manifest.8014f5787c81269cdff592013cf56355.js",
+    "service-worker.js": "/business-card/service-worker.js",
+    "static/css/main.047e5b56.chunk.css.map": "/business-card/static/css/main.047e5b56.chunk.css.map",
+    "static/js/2.286eee90.chunk.js.LICENSE.txt": "/business-card/static/js/2.286eee90.chunk.js.LICENSE.txt",
+    "static/media/qr-code-2.png": "/business-card/static/media/qr-code-2.c05ece32.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b87d5823.js",
+    "static/js/2.286eee90.chunk.js",
+    "static/css/main.047e5b56.chunk.css",
+    "static/js/main.a6a5848c.chunk.js"
+  ]
+}

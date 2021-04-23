@@ -18,11 +18,9 @@ class LanguageData {
   }
 }
 
-
 const fetchRepos = async () => {
   const repoResp = await fetch(
     'https://api.github.com/users/matildabjorken/repos',
-
   ).then((res) => res.json());
   return repoResp;
 };

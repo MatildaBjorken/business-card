@@ -6,7 +6,8 @@ import './App.scss';
 import { useSpring, a } from 'react-spring/three';
 
 import Languages from './components/github';
-import QR from './images/qr-code-2.png';
+import QR from './images/github-qr.png';
+import LinkedIn from './images/linked-qr.png';
 
 // soft Shadows
 softShadows();
@@ -44,7 +45,7 @@ const SpinningMesh = ({ position, color, speed, args }) => {
 };
 
 const App = () => {
-  const [languages, setLanguages] = useState([]);
+ /* const [languages, setLanguages] = useState([]);
 
   useEffect(() => {
     const fetchLanguages = async () => {
@@ -86,11 +87,12 @@ const App = () => {
     setBio(bio);
     setUrl(html_url);
   };
-
+*/
   return (
     <>
       <div className="info-card">
         <img src={QR} className="qr-code" />
+        <img src={LinkedIn} className="qr-code" />
       </div>
       {/* Our Scene & Camera is already built into our canvas */}
       <div className="canvas-wrapper">

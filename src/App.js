@@ -24,6 +24,7 @@ const SpinningMesh = ({ position, color, speed, args }) => {
   const props = useSpring({
     scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
   });
+  
   return (
     <a.mesh
       position={position}

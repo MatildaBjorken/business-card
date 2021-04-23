@@ -5,7 +5,6 @@ import { softShadows, MeshWobbleMaterial, OrbitControls } from 'drei';
 import './App.scss';
 import { useSpring, a } from 'react-spring/three';
 
-import Languages from './components/github';
 import QR from './images/github-qr.png';
 import LinkedIn from './images/linked-qr.png';
 

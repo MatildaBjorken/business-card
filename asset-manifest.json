@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/business-card/static/css/main.82d4e1b4.chunk.css",
+    "main.css": "/business-card/static/css/main.2f9f7663.chunk.css",
     "main.js": "/business-card/static/js/main.7053d726.chunk.js",
     "main.js.map": "/business-card/static/js/main.7053d726.chunk.js.map",
     "runtime-main.js": "/business-card/static/js/runtime-main.b87d5823.js",
@@ -8,9 +8,9 @@
     "static/js/2.987d22df.chunk.js": "/business-card/static/js/2.987d22df.chunk.js",
     "static/js/2.987d22df.chunk.js.map": "/business-card/static/js/2.987d22df.chunk.js.map",
     "index.html": "/business-card/index.html",
-    "precache-manifest.6baa0e6875f565469da6dcf386a2563f.js": "/business-card/precache-manifest.6baa0e6875f565469da6dcf386a2563f.js",
+    "precache-manifest.073df7a5c55c5eac049f22962471f85b.js": "/business-card/precache-manifest.073df7a5c55c5eac049f22962471f85b.js",
     "service-worker.js": "/business-card/service-worker.js",
-    "static/css/main.82d4e1b4.chunk.css.map": "/business-card/static/css/main.82d4e1b4.chunk.css.map",
+    "static/css/main.2f9f7663.chunk.css.map": "/business-card/static/css/main.2f9f7663.chunk.css.map",
     "static/js/2.987d22df.chunk.js.LICENSE.txt": "/business-card/static/js/2.987d22df.chunk.js.LICENSE.txt",
     "static/media/github-qr.png": "/business-card/static/media/github-qr.8a66312a.png",
     "static/media/linked-qr.png": "/business-card/static/media/linked-qr.3368195d.png"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.b87d5823.js",
     "static/js/2.987d22df.chunk.js",
-    "static/css/main.82d4e1b4.chunk.css",
+    "static/css/main.2f9f7663.chunk.css",
     "static/js/main.7053d726.chunk.js"
   ]
 }

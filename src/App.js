@@ -88,7 +88,6 @@ const App = () => {
     setUrl(html_url);
   };
 */
-
   return (
     <>
       <div className="info-card">

@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from 'react';
-
+import {Link } from "react-router-dom";
 import { Canvas, useFrame } from 'react-three-fiber';
 import { softShadows, MeshWobbleMaterial, OrbitControls } from 'drei';
 import './App.scss';
@@ -24,7 +24,7 @@ const SpinningMesh = ({ position, color, speed, args }) => {
   const props = useSpring({
     scale: expand ? [1.4, 1.4, 1.4] : [1, 1, 1],
   });
-  
+
   return (
     <a.mesh
       position={position}
@@ -45,7 +45,7 @@ const SpinningMesh = ({ position, color, speed, args }) => {
 };
 
 const App = () => {
- /* const [languages, setLanguages] = useState([]);
+  /* const [languages, setLanguages] = useState([]);
 
   useEffect(() => {
     const fetchLanguages = async () => {
@@ -88,10 +88,11 @@ const App = () => {
     setUrl(html_url);
   };
 */
+
   return (
     <>
       <div className="info-card">
-        <img src={QR} className="qr-code" />
+        <img src={QR} className="qr-code" onClick={''}/> 
         <img src={LinkedIn} className="qr-code" />
       </div>
       {/* Our Scene & Camera is already built into our canvas */}

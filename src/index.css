@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
-
-* {
-  font-family: 'Lexend Mega', sans-serif;
-}
 
 html,
 body {
@@ -13,13 +7,9 @@ body {
   background: #ffffff;
   color: #606063;
   overflow: hidden;
-  font-family: 'Lexend Mega', sans-serif;
   text-align: center;
 }
 
-p {
-  font-size: 0.9rem;
-}
 
 #root {
   width: 100vw;
@@ -53,26 +43,4 @@ p {
   left: 0;
   right: 0;
   margin: auto;
-}
-
-
-
-.qr-code {
-  width: 200px;
-  height: 200px;
-}
-
-@media only screen and (max-width: 600px){
-  .qr-code {
-    width: 130px;
-    height: 130px;
-  }
-}
-
-
-@media only screen and (max-width: 600px){
-  .qr-code {
-    width: 130px;
-    height: 130px;
-  }
 }

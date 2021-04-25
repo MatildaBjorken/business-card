@@ -90,10 +90,6 @@ const App = () => {
 */
   return (
     <>
-      <div className="info-card">
-        <img src={QR} className="qr-code" onClick={''}/> 
-        <img src={LinkedIn} className="qr-code" />
-      </div>
       {/* Our Scene & Camera is already built into our canvas */}
       <div className="canvas-wrapper">
         <Canvas
@@ -132,19 +128,19 @@ const App = () => {
               <shadowMaterial attach="material" opacity={0.3} />
             </mesh>
             <SpinningMesh
-              position={[0, -2, 0]}
+              position={[0, -1, 0]}
               color="lightblue"
               args={[2, 2, 2]}
               speed={2}
             />
             <SpinningMesh
-              position={[-2, -1, -5]}
+              position={[-2, 0, -5]}
               color="lightgreen"
               args={[2, 2, 2]}
               speed={6}
             />
             <SpinningMesh
-              position={[5, -1, -2]}
+              position={[5, 0, -2]}
               color="pink"
               args={[2, 2, 2]}
               speed={6}

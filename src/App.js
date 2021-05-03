@@ -4,10 +4,8 @@ import { Canvas, useFrame } from 'react-three-fiber';
 import { softShadows, MeshWobbleMaterial, OrbitControls } from 'drei';
 import './App.scss';
 import { useSpring, a } from 'react-spring/three';
-
-import QR from './images/github-qr.png';
-import LinkedIn from './images/linked-qr.png';
-
+import Header from './components/header'
+import Text from './components/text'
 // soft Shadows
 softShadows();
 
@@ -45,53 +43,12 @@ const SpinningMesh = ({ position, color, speed, args }) => {
 };
 
 const App = () => {
-  /* const [languages, setLanguages] = useState([]);
 
-  useEffect(() => {
-    const fetchLanguages = async () => {
-      const languageArray = await Languages();
-      setLanguages(languageArray);
-    };
-    fetchLanguages();
-  }, []);
-
-  for (let i = 0; i < languages.length; i++) {
-    const x = languages[i].id;
-  }
-
-  const [name, setName] = useState('');
-  const [repos, setRepos] = useState('');
-  const [location, setLocation] = useState('');
-  const [bio, setBio] = useState('');
-  const [url, setUrl] = useState('');
-
-  useEffect(() => {
-    fetch('https://api.github.com/users/matildabjorken')
-      .then((res) => res.json())
-      .then((data) => {
-        setData(data);
-      });
-  }, []);
-
-  const setData = ({
-    name,
-    location,
-    bio,
-    avatar_url,
-    public_repos,
-    html_url,
-  }) => {
-    setName(name);
-    setRepos(public_repos);
-    setLocation(location);
-    setBio(bio);
-    setUrl(html_url);
-  };
-*/
   return (
     <>
       {/* Our Scene & Camera is already built into our canvas */}
       <div className="canvas-wrapper">
+        <Header/>
         <Canvas
           id="canvas"
           height="100px"
@@ -128,19 +85,19 @@ const App = () => {
               <shadowMaterial attach="material" opacity={0.3} />
             </mesh>
             <SpinningMesh
-              position={[0, -1, 0]}
+              position={[0, 0, 0]}
               color="lightblue"
               args={[2, 2, 2]}
               speed={2}
             />
             <SpinningMesh
-              position={[-2, 0, -5]}
+              position={[-2, 1, -5]}
               color="lightgreen"
               args={[2, 2, 2]}
               speed={6}
             />
             <SpinningMesh
-              position={[5, 0, -2]}
+              position={[5, 1, -2]}
               color="pink"
               args={[2, 2, 2]}
               speed={6}
@@ -148,7 +105,9 @@ const App = () => {
           </group>
           {/* Allows us to move the canvas around for different prespectives */}
         </Canvas>
+      
       </div>
+      <Text/>
     </>
   );
 };
